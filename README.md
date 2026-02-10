@@ -1,19 +1,22 @@
 # JSON Parser
 
 --------
-## Overview 
+
+## Overview
+
 This JSON parser:
-- Parsing made without Gson or ather lib for json parsing
+- Parsing made without Gson or other libs for JSON parsing
 - Also conversion: JSON to Java Objects
 - File I/O also to dealWithIt.json file
 
-| Component          | Purpose                        | Key Methods                     |
-|___________________|______________________________|________________________________|
-| **Parser**         | JSON → Java Map/Object         | `JSONIntoMAP()`, `JSONToObj()`  |
-| **Serializer**     | Java Object → JSON String      | `toJSON()`, `Values()`          |
-| **File Handler**   | Read/Write JSON files          | `FileWriter`                    |
+| Component        | Purpose                      | Key Methods                   |
+|------------------|------------------------------|-------------------------------|
+| **Parser**       | JSON → Java Map/Object       | `JSONIntoMAP()`, `JSONToObj()` |
+| **Serializer**   | Java Object → JSON String    | `toJSON()`, `values()`         |
+| **File Handler** | Read/Write JSON files        | `FileWriter`                   |
 
 ### Key Features
+
 ```java
 // 1. Parse JSON to Map
 Map<String, Object> data = JSONIntoMAP("{\"futureCar\":\"Volvo\"}");
