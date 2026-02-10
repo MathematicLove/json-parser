@@ -1,6 +1,5 @@
 # JSON Parser
 
-В директории, gradle проект.
 =======
 ## Overview 
 This JSON parser:
@@ -8,7 +7,7 @@ This JSON parser:
 - Also conversion: JSON to Java Objects
 - File I/O also to dealWithIt.json file
 
-| Component         | Purpose                         | Key Methods                     |
+| Component          | Purpose                          | Key Methods                     |
 |____________________|__________________________________|_________________________________|
 | **Parser**         | JSON → Java Map/Object           | `JSONIntoMAP()`, `JSONToObj()`  |
 | **Serializer**     | Java Object → JSON String        | `toJSON()`, `Values()`          |
